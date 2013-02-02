@@ -61,10 +61,15 @@
             android:name=".PullToRefreshWebView2Activity"
             android:label="PtR WebView Advanced" >
         </activity>
-    </application>
+        <activity
+            android:name="com.handmark.pulltorefresh.samples.PullToRefreshRecyclerViewTestActivity"
+            android:label="PtR RecyclerView" >
+        </activity>
+   </application> 
 
     <!-- For WebView Sample -->
     <uses-permission android:name="android.permission.INTERNET" />
+   
 
     <supports-screens android:anyDensity="true" />
 
